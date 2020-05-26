@@ -33,7 +33,8 @@
 
 </head>
 
-<body id="page-top">
+<body onload="myFunction()" id="page-top">
+  <div id="loading"></div>
   <!-- Navigation -->
   <div class="logo">
     <i class="fa fa-user-o" aria-hidden="true"> <span style="font-size: 80%;"> Jibin Koshy</span></i>
@@ -381,6 +382,16 @@
       <p class="text-muted small mb-0">Designed by <a href="https://instagram.com/jibu.psy/" target="_balnk">Jibin Koshy</p>
     </div>
   </footer>
+  <script>
+
+    var preloader = document.getElementById('loading');
+
+    function myFunction(){
+        preloader.style.display = 'none';
+
+    }
+
+  </script>
 </body>
 
 </html>
